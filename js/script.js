@@ -1,4 +1,9 @@
 //myJavaScript
+//Genero griglia 6x6
+for (var i = 0; i < 36; i++) {
+  $(".container").append('<div class="quad"><span class="quad_text">click here</span></div>');
+}
+
 //JQuery
 $(document).ready(function() {
   //On click
